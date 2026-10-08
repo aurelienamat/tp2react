@@ -3,11 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import FirstComposant from './composant/FirstComposant';
+import ShowLoginPassword from './composant/ShowLoginPassword';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <FirstComposant />
     <App />
+    <ShowLoginPassword />
   </React.StrictMode>
 );
 
